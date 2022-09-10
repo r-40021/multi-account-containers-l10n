@@ -1,4 +1,8 @@
 {
+  "extensionDescription": {
+    "message": "Multi-Account Containers を使えば、オンライン生活の様々な場面をタブごとに管理できます。ショッピング、旅行計画、メールチェックなどの作業を、任意の名前と色付けされたタブで仕分けられます。",
+    "description": "Description of the extension. DO NOT TRANSLATE \"Multi-Account Containers\"."
+  },
   "openInNewTabTitle": {
     "message": "新しいタブを開くコンテナー...",
     "description": "Menu title"
@@ -34,6 +38,60 @@
   },
   "moveTabsToANewWindow": {
     "message": "タブを新しいウィンドウへ移動"
+  },
+  "onboarding-1-header": {
+    "message": "オンライン上の行為を管理"
+  },
+  "onboarding-1-description": {
+    "message": "コンテナーを使えば、タスクやアカウントを管理してやりたいことに集中できます。"
+  },
+  "onboarding-2-header": {
+    "message": "コンテナーを活用"
+  },
+  "onboarding-2-description": {
+    "message": "コンテナータブは、探し物を簡単にし、集中力を高め、気が散るのを最小限に抑えることに役立ちます。"
+  },
+  "onboarding-3-header": {
+    "message": "タブを整理整頓"
+  },
+  "onboarding-3-description": {
+    "message": "既存のコンテナーを使うか、独自のコンテナーを作成します。"
+  },
+  "onboarding-4-header": {
+    "message": "お好みのサイトをお好みのコンテナーで"
+  },
+  "onboarding-4-description": {
+    "message": "コンテナータブ内で右クリックすると、常にコンテナー内でサイトを開くようにできます。"
+  },
+  "onboarding-5-header": {
+    "message": "コンテナータブをいつでも"
+  },
+  "onboarding-5-description": {
+    "message": "[新しいタブ] ボタンを長押しすると、新たなコンテナータブを作成できます。"
+  },
+  "onboarding-6-header": {
+    "message": "コンテナーを同期"
+  },
+  "onboarding-6-description": {
+    "message": "同期を有効にすると、コンテナーやサイトのコンテナー割り当て設定を Firefox アカウントでログインしているあらゆるデバイスで共有できます。"
+  },
+  "onboarding-7-header": {
+    "message": "同期には Firefox アカウントが必要です。"
+  },
+  "onboarding-7-description": {
+    "message": "[ログイン] をクリックして、Firefox アカウントが使用可能であることを確認します。"
+  },
+  "onboarding-8-description": {
+    "message": "Mozilla VPN や独自のプロキシと統合し、安全かつプライベートで、アクティビティを保護する接続が可能になりました。"
+  },
+  "oneHundredTabsHeader": {
+    "message": "記念すべき 100 タブ目！"
+  },
+  "youHaveOpened": {
+    "message": "これまでに 100 個のコンテナータブを開きました。"
+  },
+  "spreadTheWord": {
+    "message": "コンテナータブが良いと思ったら、ぜひ口コミで広めてください！"
   },
   "rate": {
     "message": "評価"
@@ -137,5 +195,201 @@
   },
   "keyboardShortCuts": {
     "message": "キーボードショートカット:"
+  },
+  "onboarding": {
+    "message": "チュートリアル"
+  },
+  "resetOnboardingPanels": {
+    "message": "チュートリアルを最初から見る"
+  },
+  "onboardingToggle": {
+    "message": "このボタンを押して、チュートリアルをもう一度見ます。"
+  },
+  "tabBehavior": {
+    "message": "タブの挙動:"
+  },
+  "enableBookMarkMenus": {
+    "message": "ブックマークメニューに表示"
+  },
+  "firefoxAccountsSync": {
+    "message": "同期:"
+  },
+  "enableSync": {
+    "message": "同期を有効にする"
+  },
+  "enableBookMarkMenusDescription": {
+    "message": "ブックマークやブックマークフォルダーをコンテナーで開きます。"
+  },
+  "enableSyncDescription": {
+    "message": "デバイス間でコンテナータブやコンテナータブの割り当て設定を同期します。"
+  },
+  "syncExclude": {
+    "message": "除外するコンテナー"
+  },
+  "syncExcludePlaceholder": {
+    "message": "正規表現を挿入"
+  },
+  "syncExcludeDescription": {
+    "message": "名前が正規表現に一致するコンテナーは同期されません。(大文字・小文字は区別されません。)"
+  },
+  "replaceTab": {
+    "message": "新しいタブを作成せずにコンテナーを現在のタブで切り替える"
+  },
+  "replaceTabDescription": {
+    "message": "他のコンテナーに割り当てられたページを開いたときに、現在のタブでコンテナーを切り替えます。(現在のタブを開いたままにするのではありません。) マウスの中ボタンで開いた場合はこの設定の影響を受けません。"
+  },
+  "editWhichContainer": {
+    "message": "数字のショートカットキーを使用した際にどのコンテナーを開くかを設定します。"
+  },
+  "keyboardShortCut": {
+    "message": "$keyId$ のショートカットキーを使用した際に開くコンテナー",
+    "placeholders": {
+      "keyId": {
+          "content": "$1"
+      }
+    }
+  },
+  "confirmNavigationTitle": {
+    "message": "Multi-Account Containers - 移動先の確認",
+    "description": "This is the title of a confirmation page. Please do not translate \"Multi-Account Containers\"."
+  },
+  "openInContainer": {
+    "message": "$containerName$ で開く",
+    "placeholders": {
+      "containerName": {
+        "content": "$1"
+      }
+    }
+  },
+  "openInNoContainer": {
+    "message": "現在のタブで開く",
+    "description": "This is the button text in confirmation page when we are not inside a container"
+  },
+  "youAskedFirefox": {
+    "message": "以下のサイトは常に $containerName$ で開くように設定されています:",
+    "placeholders": {
+      "containerName": {
+        "content": "$1"
+      }
+    }
+  },
+  "chooseLocation": {
+    "message": "ロケーションを選択",
+    "description": "Location refers to the geographical position used by the VPN"
+  },
+  "hide": {
+    "message": "非表示"
+  },
+  "show": {
+    "message": "表示"
+  },
+  "protectYourContainers": {
+    "message": "Mozilla VPN でコンテナーを保護"
+  },
+  "protectThisContainer": {
+    "message": "Mozilla VPN でこのコンテナーを保護"
+  },
+  "advancedProxySettings": {
+    "message": "高度なプロキシー設定"
+  },
+  "proxyInputLabel": {
+    "message": "独自のプロキシーを入力"
+  },
+  "useCustomLocation": {
+    "message": "このコンテナーでは別のロケーションを使用する"
+  },
+  "clearproxylabel": {
+    "message": "プロキシーを削除"
+  },
+  "moz-vpn-connected": {
+    "message": "Mozilla VPN は有効です"
+  },
+  "moz-vpn-disconnected": {
+    "message": "Mozilla VPN は無効です"
+  },
+  "invalidProxyAlert": {
+    "message": "有効なプロキシーサーバーの URL を入力してください"
+  },
+  "mozillaVpnMustBeOn": {
+    "message": "この機能を使用するには、Mozilla VPN を有効にする必要があります。"
+  },
+  "learnMore": {
+    "message": "詳細情報"
+  },
+  "proxyNowAvailable": {
+    "message": "Mozilla VPN と高度なプロキシー設定が使用可能になりました"
+  },
+  "applyToContainer": {
+    "message": "コンテナーに適用"
+  },
+  "tooltipWarning": {
+    "message": "このコンテナーは Mozilla VPN を使用するように設定されていますが、Mozilla VPN が有効になっていません。このコンテナーを使用するには、Mozilla VPN を有効にしてください。"
+  },
+  "getMozillaVpn": {
+    "message": "Mozilla VPN を入手"
+  },
+  "integratewithmozillavpn": {
+    "message": "コンテナーで Mozilla VPN を使用します"
+  },
+  "mozillaVpnAndProxyPermissionsTitle": {
+    "message": "Mozilla VPN とプロキシーの権限",
+    "description": "Section headline in settings"
+  },
+  "nativeMessagingPermissionTitle": {
+    "message": "拡張機能に Firefox 以外のプログラムとの通信を許可する",
+    "description": "Permission title"
+  },
+  "nativeMessagingPermissionDescription": {
+    "message": "拡張機能が Mozilla VPN クライアントと通信することを許可します。これは Mozilla VPN との連携に必要です。",
+    "description": "'This setting' refers to the permission indicated in nativeMessagingPermissionTitle"
+  },
+  "proxyPermissionTitle": {
+    "message": "拡張機能にプロキシー設定の管理を許可する",
+    "description": "Permission title"
+  },
+  "proxyPermissionDescription": {
+    "message": "高度なプロキシー設定や Mozilla VPN との連携機能が使用できるようになります。",
+    "description": "'This' refers to the permission indicated in proxyPermissionTitle"
+  },
+  "additionalPermissionNeeded": {
+    "message": "この機能は追加の権限を必要としています。追加の権限は設定画面でいつでも無効化できます。",
+    "description": "'This feature' is the browser proxy permission. This string appears on the 'Advanced Proxy Settings' panel when the proxy permission is disabled."
+  },
+  "mozillaVpnRequiresAdditionalPermissions": {
+    "message": "Mozilla VPN との連携機能を使用するには、サブスクリプションへの加入と追加の権限が必要です。"
+  },
+  "enable": {
+    "message": "有効化",
+    "description": "Button title "
+  },
+  "integrateContainers": {
+    "message": "コンテナーで Mozilla VPN を使用します"
+  },
+  "theme": {
+    "message": "テーマ:",
+    "description": "Theme section title in the option page"
+  },
+  "chooseTheme": {
+    "message": "テーマを選択",
+    "description": "Description for the theme option"
+  },
+  "themeAuto": {
+    "message": "自動 (既定)",
+    "description": "Default value for the theme option select tag"
+  },
+  "themeLight": {
+    "message": "ライト",
+    "description": "Value for the theme option select tag"
+  },
+  "themeDark": {
+    "message": "ダーク",
+    "description": "Value for the theme option select tag"
+  },
+  "filterInputLabel": {
+    "message": "名前によるコンテナーの絞り込み:",
+    "description": "Label for the filter input in the main panel. Only visible for screen reader."
+  },
+  "filterInputPlaceholder": {
+    "message": "コンテナーを検索"
   }
 }
