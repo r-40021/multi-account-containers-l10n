@@ -73,7 +73,7 @@
     "message": "コンテナーを同期"
   },
   "onboarding-6-description": {
-    "message": "同期を有効にすると、コンテナーやサイトのコンテナー割り当て設定を Firefox アカウントでログインしているデバイス間で共有できます。"
+    "message": "同期を有効にすると、Firefox アカウントでログインしているデバイス間でコンテナーやサイトのコンテナー割り当て設定を共有できます。"
   },
   "onboarding-7-header": {
     "message": "同期には Firefox アカウントが必要です。"
@@ -221,7 +221,7 @@
     "message": "ブックマークやブックマークフォルダーをコンテナーで開きます。"
   },
   "enableSyncDescription": {
-    "message": "デバイス間でコンテナータブやコンテナータブの割り当て設定を同期します。"
+    "message": "デバイス間でコンテナータブやコンテナーの割り当て設定を同期します。"
   },
   "syncExclude": {
     "message": "除外するコンテナー"
@@ -233,10 +233,10 @@
     "message": "名前が正規表現に一致するコンテナーは同期されません。(大文字・小文字は区別されません。)"
   },
   "replaceTab": {
-    "message": "新しいタブを作成せずにコンテナーを現在のタブで切り替える"
+    "message": "同じタブ内でコンテナーを切り替える"
   },
   "replaceTabDescription": {
-    "message": "他のコンテナーに割り当てられたページを開いたときに、閲覧中のタブでコンテナーを切り替えます。マウスの中ボタンでリンクを開いた場合はこの設定の影響を受けません。"
+    "message": "他のコンテナーに割り当てられたページを開いたときに、閲覧中のタブでコンテナーを切り替えます。ただし、マウスの中ボタンでリンクを開いた場合はこの設定の影響を受けません。"
   },
   "editWhichContainer": {
     "message": "数字のショートカットキーを使用した際にどのコンテナーを開くかを設定します。"
@@ -266,7 +266,7 @@
     "description": "This is the button text in confirmation page when we are not inside a container"
   },
   "youAskedFirefox": {
-    "message": "以下のサイトは常に $containerName$ で開くように設定されています:",
+    "message": "このサイトは常に $containerName$ で開くように設定されています:",
     "placeholders": {
       "containerName": {
         "content": "$1"
