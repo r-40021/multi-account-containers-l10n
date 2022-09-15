@@ -1,4 +1,8 @@
 {
+  "extensionDescription": {
+    "message": "Multi-Account Containers hjelper deg med å halde alle delane av livet ditt på nettet i forskjellige faner. Eigendefinerte etikettar og fargekoda faner hjelper deg med å halde ulike aktivitetar — som netthandel, reiseplanlegging eller sjekking av jobb-e-post — kvar for seg.",
+    "description": "Description of the extension. DO NOT TRANSLATE \"Multi-Account Containers\"."
+  },
   "openInNewTabTitle": {
     "message": "Opne ny fane i…",
     "description": "Menu title"
@@ -44,11 +48,20 @@
   "onboarding-2-header": {
     "message": "Få behaldarane til å fungere for deg."
   },
+  "onboarding-2-description": {
+    "message": "Funksjonar som fargekoding og separate innhaldsfaner hjelper deg med å finne ting enkelt, fokusere merksemda og minimere distraksjonar."
+  },
   "onboarding-3-header": {
     "message": "Ein plass for alt, og alt på sin plass."
   },
+  "onboarding-3-description": {
+    "message": "Start med behaldarane vi har laga, eller lag dine eigne."
+  },
   "onboarding-4-header": {
     "message": "Opne alltid nettstadar i behaldarane du ønskjer."
+  },
+  "onboarding-4-description": {
+    "message": "Høgreklikk inne i ei innhaldsfane for å tilordne nettstaden til å alltid opne i behaldaren."
   },
   "onboarding-5-header": {
     "message": "Innhaldsfaner når du treng dei."
@@ -59,11 +72,17 @@
   "onboarding-6-header": {
     "message": "Synkronisering av behaldarar er no tilgjengeleg!"
   },
+  "onboarding-6-description": {
+    "message": "Slå på synkronisering for å dele behaldar- og nettstadstildelingar med kva datamaskin som helst som er kopla til Firefox-kontoen din."
+  },
   "onboarding-7-header": {
     "message": "Firefox-konto er nødvendig for å synkronisere."
   },
   "onboarding-7-description": {
     "message": "Klikk på Logg på for å stadfeste at Firefox-kontoen din er aktiv."
+  },
+  "onboarding-8-description": {
+    "message": "No kan behaldarar integrast med Mozilla VPN eller din eigen proxy for å lage ei sikker, privat tilkopling som beskyttar aktiviteten din."
   },
   "oneHundredTabsHeader": {
     "message": "100 faner!"
@@ -183,6 +202,9 @@
   "resetOnboardingPanels": {
     "message": "Tilbakestill innføringspanel"
   },
+  "onboardingToggle": {
+    "message": "Veksle på denne for å sjå introduksjonspanela igjen."
+  },
   "tabBehavior": {
     "message": "Faneverkemåte:"
   },
@@ -195,11 +217,20 @@
   "enableSync": {
     "message": "Aktiver sync"
   },
+  "enableBookMarkMenusDescription": {
+    "message": "Med denne innstillinga kan du opne eit bokmerke, eller ei mappe med bokmerke, i ein behaldar."
+  },
+  "enableSyncDescription": {
+    "message": "Med denne innstillinga kan du synkronisere behaldarane dine og nettstadstildelingar mellom einingar."
+  },
   "syncExclude": {
     "message": "Behaldarekskludering"
   },
   "syncExcludePlaceholder": {
     "message": "Set inn eit vanleg uttrykk"
+  },
+  "syncExcludeDescription": {
+    "message": "Ekskluder behaldarar frå synkronisering når namnet deira samsvarer med det spesifiserte regulære uttrykket som ikkje skiljer mellom store og små bokstaver."
   },
   "replaceTab": {
     "message": "Erstatt fana i staden for å opprette ei ny"
